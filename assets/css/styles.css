@@ -780,14 +780,14 @@ a {
     background-color: #152427;
 }
 
-.process-heading {
+.process__heading {
     margin-top: 20px;
     flex: 0 0 42%;
     max-width: 42%;
     position: relative;
 }
 
-.process-heading::after {
+.process__heading::after {
     /* Positioning */
     right: -8px;
     bottom: 18px;
@@ -895,4 +895,136 @@ a {
 .process-list__item:last-child .process-list__content {
     /* Box Model */
     margin-left: 242px;
+}
+
+/* Projects */
+.project {
+    /* Box Model */
+    padding-bottom: 65px;
+    margin-top: 150px;
+    /* Color */
+    background-color: var(--primary-color);
+}
+
+.project-body {
+    /* Positioning */
+    position: relative;
+}
+
+.project-row {
+    /* Display & Box Model */
+    justify-content: space-between;
+    padding-top: 116px;
+}
+
+.project__heading {
+    /* Positioning */
+    position: relative;
+    /* Box Model */
+    width: 457px;
+    /* Color */
+    color: #e7f9f9;
+}
+
+.project__heading::before {
+    /* Positioning */
+    position: absolute;
+    bottom: 20px;
+    right: 97px;
+    /* Display & Box Model */
+    display: inline-block;
+    content: "";
+    width: 66px;
+    height: 2px;
+    /* Color */
+    background-color: #83a17d;
+}
+
+.project-content {
+    /* Box Model */
+    width: 590px;
+    /* Text */
+    font-family: "Public Sans", sans-serif;
+}
+
+.project__desc {
+    /* Color */
+    color: #6a8383;
+    /* Text */
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.56;
+}
+
+.project__link {
+    /* Box Model */
+    display: block;
+    margin-top: 12px;
+    /* Color */
+    color: #fff;
+    /* Text */
+    font-weight: 500;
+    font-size: 1.8rem;
+    /* Other */
+    transition: 0.3s;
+}
+
+.project__link:hover {
+    /* Color */
+    color: #80a07b;
+}
+
+.project__arrow {
+    /* Box Model */
+    margin-left: 26px;
+}
+
+/* Project Media */
+.project-media {
+    /* Positioning */
+    position: relative;
+    /* Box Model */
+    margin-top: 72px;
+}
+
+.project__video {
+    /* Box Model */
+    width: 100%;
+    border-radius: 22px;
+}
+
+.project__play-btn {
+    /* Positioning */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Box Model */
+    width: 118px;
+    height: 118px;
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+    /* Color */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Other */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project__play-btn:hover {
+    background-color: #80a07b;
+}
+
+/* Project Decor */
+.project__decor {
+    /* Positioning */
+    position: absolute;
+    top: 128px;
+    right: -65px;
+}
+.project__decor:last-child {
+    top: 220px;
+    right: -55px;
 }
