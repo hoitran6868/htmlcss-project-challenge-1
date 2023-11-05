@@ -97,12 +97,12 @@
     </head>
     <body>
         <!-- Header -->
-        <header class="header">
-            <div class="container">
+        <div class="header-top header-top--sticky">
+            <div class="display-area">
                 <!-- Header Top -->
-                <div class="header-top">
+                <div class="row">
                     <!-- Logo -->
-                    <a href="/">
+                    <a href="/" class="header-top__logo-link">
                         <img
                             src="./assets/icon/logo.svg"
                             alt="MODULARS"
@@ -110,35 +110,269 @@
                         />
                     </a>
                     <!-- Navbar -->
-                    <nav class="navbar">
-                        <ul class="navbar__list">
-                            <li class="navbar__item">
+                    <nav class="header-top__nav">
+                        <ul class="header-top__nav-list">
+                            <li class="header-top__nav-item">
                                 <a
                                     href="#!"
-                                    class="navbar__link navbar__link-active"
+                                    class="header-top__nav-link header-top__nav-link--active"
                                 >
                                     Home
                                 </a>
                             </li>
-                            <li class="navbar__item">
-                                <a href="#!" class="navbar__link"> About </a>
+                            <li class="header-top__nav-item">
+                                <a href="#!" class="header-top__nav-link">
+                                    About
+                                </a>
                             </li>
-                            <li class="navbar__item">
-                                <a href="#!" class="navbar__link"> Blog </a>
+                            <li class="header-top__nav-item">
+                                <a href="#!" class="header-top__nav-link">
+                                    Blog
+                                </a>
                             </li>
-                            <li class="navbar__item">
-                                <a href="#!" class="navbar__link"> Contact </a>
+                            <li class="header-top__nav-item">
+                                <a href="#!" class="header-top__nav-link">
+                                    Contact
+                                </a>
                             </li>
                         </ul>
                     </nav>
                     <!-- Action -->
-                    <div class="header-action">
-                        <button class="btn header-action__signup">
-                            Sign Up
-                        </button>
+                    <button class="btn header-top__signup">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <!-- Hero -->
+        <section class="header-hero">
+            <div class="header-hero__line"></div>
+            <div class="display-area">
+                <div class="row header-hero__row">
+                    <!-- Hero content -->
+                    <section class="header-hero__content">
+                        <h1 class="header-hero__heading">
+                            We’re a creative design agency.
+                        </h1>
+                        <p class="header-hero__desc">
+                            A brilliant, modular agency template for startup’s
+                            build yours toady.
+                        </p>
+                        <div class="header-hero__cta">
+                            <button class="btn">Get in touch</button>
+                            <button class="header-hero__play-button">
+                                <div class="header-hero__half-circle-border">
+                                    <div class="header-hero__play-btn">
+                                        <svg
+                                            class="header-hero__play-icon"
+                                            width="8"
+                                            height="10"
+                                            viewBox="0 0 8 10"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M7.48979 4.22586C8.15106 4.61996 8.13773 5.58212 7.4658 5.95775L1.49682 9.29454C0.824887 9.67017 -0.00170366 9.17755 0.00896126 8.40782L0.103701 1.57014C0.114366 0.800411 0.954284 0.330874 1.61555 0.724974L7.48979 4.22586Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                Watch Video
+                            </button>
+                        </div>
+                    </section>
+                    <!-- Hero media -->
+                    <div class="header-hero__media">
+                        <div class="header-hero__bgc-blu"></div>
+                        <figure class="header-hero__images">
+                            <img
+                                src="./assets/img/hero-01.jpg"
+                                alt="We're a creative design agency."
+                                class="header-hero__img"
+                            />
+                            <img
+                                src="./assets/img/hero-02.jpg"
+                                alt="We're a creative design agency."
+                                class="header-hero__img"
+                            />
+                            <img
+                                src="./assets/img/hero-03.jpg"
+                                alt="We're a creative design agency."
+                                class="header-hero__img"
+                            />
+                        </figure>
+
+                        <!-- Decoration -->
+                        <div>
+                            <img
+                                src="./assets/icon/decor-icon.svg"
+                                alt=""
+                                class="header-hero__decor"
+                            />
+                            <img
+                                src="./assets/icon/decor-icon.svg"
+                                alt=""
+                                class="header-hero__decor"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
+        <main style="height: 5000px">
+            <!-- Brands -->
+            <div class="brand">
+                <div class="display-area">
+                    <ul class="brand__list">
+                        <li>
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/brand-01.svg"
+                                    alt="Google"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/brand-02.svg"
+                                    alt="slack"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <img src="./assets/img/brand-03_1.svg" alt="" />
+                            </a>
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/brand-03_2.svg"
+                                    alt="Agworld"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/brand-04.svg"
+                                    alt="Riotinto"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/brand-05.svg"
+                                    alt="HEROKU"
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Services -->
+            <section class="service">
+                <div class="display-area">
+                    <section class="service__top">
+                        <div class="service__info">
+                            <p class="service__title section-title">
+                                OUR SERVICES
+                            </p>
+
+                            <h2 class="service__heading section-heading">
+                                We offer a wide range of design services
+                            </h2>
+                        </div>
+
+                        <div class="service__control">
+                            <button class="service__control-btn">
+                                <svg
+                                    width="22"
+                                    height="13"
+                                    viewBox="0 0 22 13"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                            <button class="service__control-btn">
+                                <svg
+                                    width="22"
+                                    height="12"
+                                    viewBox="0 0 22 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M1 6.29412H21M21 6.29412L15.7059 1M21 6.29412L15.7059 11"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </section>
+
+                    <div class="service__list">
+                        <article class="service-items">
+                            <a href="#!">
+                                <div class="service-items__images">
+                                    <img
+                                        src="./assets/img/service-01.png"
+                                        alt="Branding Image"
+                                        class="service-items__img"
+                                    />
+                                </div>
+                            </a>
+                            <h3 class="service-items__name">Branding</h3>
+                            <p class="service-items__desc">
+                                Create beautiful Agency website with Boluethat
+                                converts more visitors than any website.
+                            </p>
+                        </article>
+                        <article class="service-items">
+                            <a href="#!">
+                                <div class="service-items__images">
+                                    <img
+                                        src="./assets/img/service-02.png"
+                                        alt="Branding Image"
+                                        class="service-items__img"
+                                    />
+                                </div>
+                            </a>
+                            <h3 class="service-items__name">Web Design</h3>
+                            <p class="service-items__desc">
+                                Create beautiful Agency website with Boluethat
+                                converts more visitors than any website.
+                            </p>
+                        </article>
+                        <article class="service-items">
+                            <a href="#!">
+                                <div class="service-items__images">
+                                    <img
+                                        src="./assets/img/service-03.png"
+                                        alt="Branding Image"
+                                        class="service-items__img"
+                                    />
+                                </div>
+                            </a>
+                            <h3 class="service-items__name">Graphic Design</h3>
+                            <p class="service-items__desc">
+                                Create beautiful Agency website with Boluethat
+                                converts more visitors than any website.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
